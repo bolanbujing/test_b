@@ -8,7 +8,7 @@ ExternalProject_Add(aaa
     DOWNLOAD_NO_PROGRESS 1
     URL https://github.com/bolanbujing/test_a/archive/refs/tags/1.0.tar.gz
         
-    #URL_HASH SHA256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    URL_HASH SHA256=3d848a2d0d13d4562a6c8670cfafc9a57201e814cf4bb55c810c8660247d93f9
     CMAKE_COMMAND ${CMAKE_COMMAND}
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
                # Build static lib but suitable to be included in a shared lib.

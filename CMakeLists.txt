@@ -8,8 +8,8 @@ list(APPEND CMAKE_MODULE_PATH ${CHAIN_CMAKE_DIR})
 set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 set(CMAKE_CXX_FLAGS "-std=c++17 -pthread -fPIC -fvisibility-inlines-hidden -fexceptions")
 
-include(project_aaa)
+#include(project_aaa)
 
 add_library(bbb y.cpp)
 target_include_directories(bbb PUBLIC ${PROJECT_SOURCE_DIR}/test_b)
-target_link_libraries(bbb PUBLIC AAA)
+#target_link_libraries(bbb PUBLIC AAA)
